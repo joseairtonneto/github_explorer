@@ -2,7 +2,7 @@
   "name": "github_explorer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://joseairtonneto.github.io/github_explorer",
+  "homepage": "https://joseairtonneto.github.io/github_explorer",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
