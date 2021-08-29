@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import React, { useState, useEffect, FormEvent } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
@@ -39,9 +39,9 @@ const Dashboard: React.FC = () => {
   }, [repositories]);
 
   async function handleAddRepository(
-    event: FormEvent<HTMLFormElement>,
+    e: React.FormEvent<HTMLFormElement>,
   ): Promise<void> {
-    event.preventDefault();
+    e.preventDefault();
 
     if (!newRepo) {
       setInputError('Digite o autor/nome do repositório');
