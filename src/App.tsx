@@ -6,7 +6,7 @@ import Routes from './routes';
 
 const App: React.FC = () => (
   <>
-    <BrowserRouter>
+    <BrowserRouter basename="/github_explorer">
       <Routes />
     </BrowserRouter>
     <GlobalStyle />
